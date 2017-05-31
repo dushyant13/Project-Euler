@@ -28,7 +28,13 @@ public class EulerTest {
 		assertEquals("The procuct is palindrome", true, EulerMath.isPalindrome(32823));
 	}
 
-	
+	@Test
+	public void testGetSmallestNumberForGivenDigits_positiveCases() {
+		assertEquals("the smallest 2 digits number is 10 ", 10, EulerMath.getSmallestNumberForGivenDigits(2));
+		assertEquals("the smallest 3 digits number is 100 ", 100, EulerMath.getSmallestNumberForGivenDigits(3));
+	}
+
+
 	
 	
 	
