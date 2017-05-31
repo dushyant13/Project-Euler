@@ -72,6 +72,14 @@ public class EulerMath {
 	}
 
 	
-	
+	public static int getSmallestNumberForGivenDigits(int numberOfDigits) {
+		String a="1";
+		for(int i=2;i<=numberOfDigits;i++){
+			a=a+0;
+		}
+			
+		return Integer.valueOf(a);
+	}
+
 	
 }
