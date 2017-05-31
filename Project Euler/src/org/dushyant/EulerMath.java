@@ -61,6 +61,16 @@ public class EulerMath {
 		return Integer.valueOf(a);
 	}
 
+	public static boolean isPalindrome(int product) {
+		// checks if the number is a palindrome
+		String productString=String.valueOf(product);
+		StringBuilder builder = new StringBuilder(productString);
+		String reverseProductString = builder.reverse().toString();
+		
+		
+		return productString.equals(reverseProductString);
+	}
+
 	
 	
 	
