@@ -22,6 +22,11 @@ public class EulerTest {
 	}
 	
 
+	@Test
+	public void testIsPalindrome_positiveCases(){
+		assertEquals("The procuct is palindrome", true, EulerMath.isPalindrome(1221));
+		assertEquals("The procuct is palindrome", true, EulerMath.isPalindrome(32823));
+	}
 
 	
 	
