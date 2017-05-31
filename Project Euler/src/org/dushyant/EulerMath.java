@@ -53,4 +53,15 @@ public class EulerMath {
 		return true;
 	}
 
+	public static int getLargestNumberForGivenDigits(int numberOfDigits) {
+		String a="";
+		for(int i=1;i<=numberOfDigits;i++){
+			a=a+9;
+		}
+		return Integer.valueOf(a);
+	}
+
+	
+	
+	
 }
